@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submission</title>
+    <style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.top {
+    text-align: center;
+    font-size: 50px;
+    margin: 4%;
+    color: #3a5572;
+    padding-top: 1%;
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.nav-link {
+    background-color: #ffffff;
+    border: 2px solid #4A90E2;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    margin: 2%; /* Increased margin for more space between buttons */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-link h3 {
+    margin: 0;
+}
+
+.nav-link span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-link large {
+    display: block;
+    font-size: 14px;
+    color: #888;
+}
+
+.nav-link:hover {
+    background-color: #4A90E2;
+    color: white;
+    border-color: #4A90E2;
+}
+
+.nav-link.active {
+    background-color: #4A90E2;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <div class="col-lg-12 col-12">
+        <h2 class="top">Event Schedules</h2>
+    
+        <nav>
+            <div class="nav nav-tabs align-items-baseline" id="nav-tab" role="tablist">
+                <button class="nav-link " id="nav-DayOne-tab" data-bs-toggle="tab" data-bs-target="#nav-DayOne" type="button" role="tab" aria-controls="nav-DayOne" aria-selected="true">
+                    <h3>
+                        <span>Paper<br> Submission</span>
+                        <large>(10 May 2024)</large>
+                    </h3>
+                </button>
+    
+                <button class="nav-link" id="nav-DayTwo-tab" data-bs-toggle="tab" data-bs-target="#nav-DayTwo" type="button" role="tab" aria-controls="nav-DayTwo" aria-selected="false">
+                    <h3>
+                        <span>Acceptance<br> Notification</span>
+                        <large>(30 June 2024)</large>
+                    </h3>
+                </button>
+
+                 <button class="nav-link" id="nav-DayFour-tab" data-bs-toggle="tab" data-bs-target="#nav-DayFour" type="button" role="tab" aria-controls="nav-DayFour" aria-selected="false">
+                    <h3>
+                        <span>Author<br> Registration</span>
+                        
+                        <large>(10 July 2024)</large>
+                    </h3>
+                </button>
+
+                <button class="nav-link" id="nav-DayThree-tab" data-bs-toggle="tab" data-bs-target="#nav-DayThree" type="button" role="tab" aria-controls="nav-DayThree" aria-selected="false">
+                    <h3>
+                        <span>Conference</span><br>
+                        <large>(26 and 27 July 2024)</large>
+                    </h3>
+                </button>
+    
+               
+            </div>
+        </nav>
+    
+        
+    </div>   
+</body>
+</html>
