@@ -1,0 +1,154 @@
+.container-fluid{
+  margin-top: 0;
+  padding-top: 0;
+  height: 100;
+}
+
+.topx{
+  color: orange;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 1000;
+}
+
+.topy{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 1000;
+}
+
+.img{
+  background-image: url(conference.jpg);
+  height: 500px;
+  background-size: 100% 100%;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2{
+  color: rgb(234, 247, 247);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+h4{
+  color: #fff9f3;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-brand{         
+    font-weight: bold;
+    font-family: serif;
+    font-size: 2rem;
+}
+
+nav{
+    height: 150px;
+    color: #f8f3f1;  
+   
+}
+
+.container-fluid{
+   background-color: #f0f4f4;
+    height: 150px;
+}
+
+svg{  
+    padding-left: 1%;
+    color:rgb(200, 200, 114);
+    margin-right: 30px;
+}
+
+.top1{
+    height: 100px;
+    background-color:#13100b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+footer{
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  background-color: #dedede;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.d-fleex{
+  height: 1200px;
+  background-color: #F7EFE5;
+  border-radius: 3%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px; 
+}
+
+.content{
+  display: flex;
+}
+
+.research{
+  margin-top: 500px;
+}
+
+.giid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30px 220px 120px 30px 250px 30px;
+  gap: 10px; 
+}
+
+h3{
+  grid-column: span 2;
+  color: palevioletred;
+}
+
+.f1{
+  grid-column: span 2;
+  
+}
+
+.f2{
+  grid-column: span 2; 
+}
+
+.f3{
+  color: rgb(76, 174, 240);
+  grid-column: span 2;
+}
+
+.f4{
+  grid-column: span 2;
+  font-weight: bold;
+  color: rgb(80, 174, 245);
+}
+
+.f5{
+  grid-column: span 2;
+}
+
+.side{
+  color: black;
+}
+
+.imp{
+  color: black;
+  font-size: 25px;
+}
+
+.col-md-5 {
+  padding-left: 15%;
+}
+
+.btn {
+  align-self: end;
+}
+
